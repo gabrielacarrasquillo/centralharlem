@@ -16,13 +16,6 @@
         margin: 0 auto;
       }
 
-	  .scrolly-overlay2 {
-        position: left;
-        padding: 0;
-        max-width: 35rem;
-        margin: 0 auto;
-      }
-
       .sticky-thing {
         position: -webkit-sticky;
         position: sticky;
@@ -39,15 +32,45 @@
         justify-content: center;
       }
 
-      .step {
+	  .step-intro {
+        margin: 15rem auto 2rem auto;
+        margin-bottom: 30rem;
+        background-color: #eee;
+        background-color: #fff;
+        color: #888888;
+		box-shadow: 1px 1px 8px 1px #888888;
+      }
+
+	  .step-intro p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.25rem;
+      }
+
+	  .step {
         margin: 0 auto 2rem auto;
-        margin-bottom: 25rem;
+        margin-bottom: 2rem;
         background-color: #eee;
         background-color: #fff;
         color: #888888;
       }
 
       .step p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.25rem;
+      }
+
+	  .step-outro {
+        margin: 15rem auto 2rem auto;
+        margin-bottom: 35rem;
+        background-color: #eee;
+        background-color: #fff;
+        color: #888888;
+		box-shadow: 1px 1px 8px 1px #888888;
+      }
+
+	  .step-outro p {
         text-align: center;
         padding: 1rem;
         font-size: 1.25rem;
@@ -155,9 +178,21 @@
             font-size: 0.85rem;
         }
 
+        p.headline {
+            font-size: 2rem;
+            line-height: 1.1;
+            margin-bottom: 0.25rem;
+            margin-top: 0.0001rem;
+            font-weight: 300;
+        }
+
 		.fit {
   			max-width: 100%;
  			max-height: 100%;
+		}
+
+		.image-shadow {
+  			box-shadow: 1px 1px 8px 1px #888888;
 		}
 
 
@@ -174,7 +209,7 @@
         <h1 class="headline">The lots that keep being harvested across Central Harlem</h1>
         <h4 class="subhead"><i>More than places to be, rescued empty lands in this area are orchards maintained by volunteer work, mostly known as community gardens. Except for one or another vacant lot, most spaces between housing complexes are being used this way, which draws attention to the role that an integrated recreational area can play in a residential zone.</i></h4>
         <p class="byline">By Gabriela A. Carrasquillo Piñeiro</p>
-        <p class="date leftLi"> July 31, 2022</p>
+        <p class="date leftLi"> August 8, 2022</p>
 		<p class="subhead"><i>“Pocket Parks have been for many years [...] spaces scattered over the urban fabric without any relation with the contet, came out as 'muchrooms'.” -Taylor 1993</i></p>
 
     </section>
@@ -358,15 +393,15 @@
         </div>
 
         <div class="scrolly-overlay">
-          <div class="step" id="step-zero">
+          <div class="step-intro" id="step-zero">
             <p>Anyone walking across 120th and 135th in between streets in Central Harlem, even with the corner of their eyes as they pass by, will get a glance of what some buildings in this residential zone hide in between them that seem as vacant lots.
 			</p>
 		  </div>
-		  <div class="step" id="step-one">
+		  <div class="step-intro" id="step-one">
 			<p>A closer look through the black gates that usually enclose them, luscious green areas await to be occupied by everyone during the day, most of them with planting terraces populated with at least one  sprouted tomato plant and a picnic table.  
 			</p>
           </div>
-          <div class="step" id="step-two">
+          <div class="step-intro" id="step-two">
             <p>Some of these lots, after the original structure was torn down, were turned into parks in the 1960’s, known as vest-pocket parks because of their narrow and long shape between buildings. Now, most of these spaces, and others that are not so thin, are used as <i><span style="color:#fac898">community gardens</span></i> or <i><span style="color:#c1e1c1">passive parks</span></i>.
 			</p>
 			<img class="fit" src="satelite_image.jpg" style="float:center;">
@@ -414,13 +449,15 @@
 	  </p>
 	  <p>El rescate de lotes para su uso público se remonta a 1964 cuando integrantes de la Community Church of   Christ in Harlem and the Park Association se organizaron para adquirir el terreno, seguido por un movimiento que inició esa década tras la construcción del primer Vest-Pocket Park en toda la Ciudad de New York, en la calle 128 de Central Harlem.</p>
 	  <!--Imagen a la izquierda-->
-	  <img src="NYT_1.jpg" style="float:left;width:332px;height:1111px;">	
+	  <img class="image-shadow"  src="NYT_1.jpg" style="float:left;width:140px;height:555px;">	
 	</div>
 	<div class="step" id="step-four">
 	  <p>Tras este evento, hubo un boom, según reportó el New York Times, en que los oficiales gubernamentales locales ayudaron a impulsar la construcción de más pocket parks en el verano de 1965.</p>
 	  <p>Meses después, residentes de Central Harlem cuestionaron la intervención del gobierno en una iniciativa que había surgido de las comunidades al señalar el peligro de que el Estado quisiera tomar estos proyectos en sus manos.</p>
 	  <p>A pesar de que la mayoría son parte del movimiento de NYC Parks Greenthumb del New York City Department of Parks and Recreation, todas son gestionadas por voluntarios residentes del área y aún sobreviven iniciativas completamente independientes, like Harlem Grown.</p>
 	  <p>Near the 1980’s, these spaces acquired a more sacred value. Seen as “a bad neighborhood”, volunteer Sherly Saint Cloud says that these gardens started to be seen as refugees for the young people to hang out and spend their time while having a role for the benefit of the community, specially by learning the importance of growing their own food.</p>
+	 <p></p> 
+	  <p class="headline" >A compilation of featured parks and gardens</p>
 	</div>
 
 </div>
@@ -667,19 +704,20 @@
 </div>
 <!-- ai2html goes above this line -->
 	</div>
-	<div class="scrolly-overlay2">
+	<div class="scrolly-overlay">
 
 		<section>
 			<div class="scrolly-overlay">
-			  <div class="step" id="step-five">
+			  <div class="step-outro" id="step-five">
+				<p>First Vest-Pocket Park in New York City.</p>
 				<img class="fit" src="1st_pocket.JPG" >
 				<p class="note">Photo: Gabriela A. Carrasquillo Piñeiro</p>
 			  </div>
-			  <div class="step" id="step-six">
+			  <div class="step-outro" id="step-six">
 				<img class="fit" src="collyer.JPG" >
 				<p class="note">Photo: Gabriela A. Carrasquillo Piñeiro</p>
 			  </div>
-			  <div class="step" id="step-seven">
+			  <div class="step-outro" id="step-seven">
 				<img class="fit" src="harlem_grown.png" >
 				<p class="note">Image retreived from Garden Collage Magazine.</p>
 			</div>
@@ -773,7 +811,36 @@
 
 	scroller
 		.setup({
+			step: ".scrolly-overlay .step-intro",
+			offset: 0.75,
+			debug: false
+		})
+		.onStepEnter(function({ element, index, direction}) {
+			const event = new CustomEvent('stepin', { detail: { direction: direction } })
+			element.dispatchEvent(event);
+		})
+		.onStepExit(function({ element, index, direction }) {
+			const event = new CustomEvent('stepout', { detail: { direction: direction } })
+			element.dispatchEvent(event);
+		})
+		
+		.setup({
 			step: ".scrolly-overlay .step",
+			offset: 0.75,
+			debug: false
+		})
+		.onStepEnter(function({ element, index, direction}) {
+			const event = new CustomEvent('stepin', { detail: { direction: direction } })
+			element.dispatchEvent(event);
+		})
+		.onStepExit(function({ element, index, direction }) {
+			const event = new CustomEvent('stepout', { detail: { direction: direction } })
+			element.dispatchEvent(event);
+		})
+
+
+		.setup({
+			step: ".scrolly-overlay .step-outro",
 			offset: 0.75,
 			debug: false
 		})
